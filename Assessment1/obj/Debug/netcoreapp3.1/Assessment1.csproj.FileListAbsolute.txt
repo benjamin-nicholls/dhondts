@@ -1,0 +1,13 @@
+C:\Users\Me\Google Drive\Uni\CMP1903M Object Orientated Programming\oop1\Assessment1\bin\Debug\netcoreapp3.1\Assessment1.exe
+C:\Users\Me\Google Drive\Uni\CMP1903M Object Orientated Programming\oop1\Assessment1\bin\Debug\netcoreapp3.1\Assessment1.deps.json
+C:\Users\Me\Google Drive\Uni\CMP1903M Object Orientated Programming\oop1\Assessment1\bin\Debug\netcoreapp3.1\Assessment1.runtimeconfig.json
+C:\Users\Me\Google Drive\Uni\CMP1903M Object Orientated Programming\oop1\Assessment1\bin\Debug\netcoreapp3.1\Assessment1.runtimeconfig.dev.json
+C:\Users\Me\Google Drive\Uni\CMP1903M Object Orientated Programming\oop1\Assessment1\bin\Debug\netcoreapp3.1\Assessment1.dll
+C:\Users\Me\Google Drive\Uni\CMP1903M Object Orientated Programming\oop1\Assessment1\bin\Debug\netcoreapp3.1\Assessment1.pdb
+C:\Users\Me\Google Drive\Uni\CMP1903M Object Orientated Programming\oop1\Assessment1\obj\Debug\netcoreapp3.1\Assessment1.csprojAssemblyReference.cache
+C:\Users\Me\Google Drive\Uni\CMP1903M Object Orientated Programming\oop1\Assessment1\obj\Debug\netcoreapp3.1\Assessment1.AssemblyInfoInputs.cache
+C:\Users\Me\Google Drive\Uni\CMP1903M Object Orientated Programming\oop1\Assessment1\obj\Debug\netcoreapp3.1\Assessment1.AssemblyInfo.cs
+C:\Users\Me\Google Drive\Uni\CMP1903M Object Orientated Programming\oop1\Assessment1\obj\Debug\netcoreapp3.1\Assessment1.csproj.CoreCompileInputs.cache
+C:\Users\Me\Google Drive\Uni\CMP1903M Object Orientated Programming\oop1\Assessment1\obj\Debug\netcoreapp3.1\Assessment1.dll
+C:\Users\Me\Google Drive\Uni\CMP1903M Object Orientated Programming\oop1\Assessment1\obj\Debug\netcoreapp3.1\Assessment1.pdb
+C:\Users\Me\Google Drive\Uni\CMP1903M Object Orientated Programming\oop1\Assessment1\obj\Debug\netcoreapp3.1\Assessment1.genruntimeconfig.cache
