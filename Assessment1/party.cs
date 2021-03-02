@@ -8,14 +8,16 @@ namespace Assessment1
     {
         public string name { get; private set; }
         public int votes { get; private set; }
-        public List<string> meps { get; private set; }
+        public int runningVotes { get; private set; }
+        private  List<string> meps { get; set; }
+        public int seatsSecured { get; private set; }
      
-        //constructor - do we need this?
         public Party(string Name, int Votes, List<string> MEPs)
         {
             name = Name;
             votes = Votes;
-            meps = MEPs; //does this work? to copy an entire array? should we make this a list?--might have to iterate through each element
+            runningVotes = votes;
+            meps = MEPs;
         }
 
         public string GetMEPs()
@@ -28,5 +30,12 @@ namespace Assessment1
             MEPs = MEPs[2..];
             return MEPs;
         }
+
+        public void WinSeat()
+        {
+            seatsSecured++;
+            runningVotes = votes / (1 + seatsSecured);
+        }
+
     }
 }

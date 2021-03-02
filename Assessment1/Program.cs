@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Assessment1
 {
@@ -8,6 +9,8 @@ namespace Assessment1
     {
         static void Main(string[] args)
         {
+            int maxSeatsCount = 5; // East Midlands (European Parliament Constituency)
+            int allocatedSeatsCount = 0;
             string[] lines = System.IO.File.ReadAllLines("input.txt");
             List<Party> parties = new List<Party>();
 
@@ -36,27 +39,28 @@ namespace Assessment1
             //TESTING
             foreach (Party pp in parties)
             {
-                Console.WriteLine("name: " + pp.name + " with votes: " + pp.votes + " and MEPs: " + pp.GetMEPs());
+                //Console.WriteLine($"NAME: {pp.name}. VOTES: {pp.votes}. MEPs: {pp.GetMEPs()}.");
             }
 
+
+            //Console.WriteLine(parties.Max(r => r.votes));
+            Party mostVotes = parties.Aggregate((i1, i2) => i1.runningVotes > i2.runningVotes ? i1 : i2);
+            Console.WriteLine(mostVotes.name);
+            mostVotes.WinSeat();
+            allocatedSeatsCount++;
+
+
+            //old
             int highestVotes = 0;
-            int MEPcounter = 0;
-            /*while (MEPcounter > 5)
-            {
-                for (int i = 2; i < lines.Length-1; i++)
-                {
-                  // lines[i].Split(",")[1]
-                }
-
-            }*/
-
-
-
 
 
 
             Console.WriteLine("Press any key to exit.");
             System.Console.ReadKey();
+        }
+        // method to do the maths or something idk
+        private static void DHondt()
+        {
         }
     }
 }
