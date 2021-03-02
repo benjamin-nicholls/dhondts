@@ -1,15 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
+using System.Linq;
 
 namespace Assessment1
 {
     class Party
     {
         public string name { get; private set; }
-        public int votes { get; private set; }
+        private int votes { get; set; }
         public int runningVotes { get; private set; }
-        private  List<string> meps { get; set; }
+        private List<string> meps { get; set; }
         public int seatsSecured { get; private set; }
      
         public Party(string Name, int Votes, List<string> MEPs)
@@ -20,14 +20,14 @@ namespace Assessment1
             meps = MEPs;
         }
 
-        public string GetMEPs()
+        public string GetMEPs(int number)
         {
             string MEPs = "";
-            foreach (string mep in meps)
+            for (int i = 0; i < number; i++)
             {
-                MEPs = MEPs + ", " + mep;
+                MEPs = MEPs + "," + meps[i];
             }
-            MEPs = MEPs[2..];
+            MEPs = MEPs[1..];
             return MEPs;
         }
 
@@ -36,6 +36,5 @@ namespace Assessment1
             seatsSecured++;
             runningVotes = votes / (1 + seatsSecured);
         }
-
     }
 }
