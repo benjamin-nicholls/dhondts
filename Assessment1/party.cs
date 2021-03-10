@@ -6,17 +6,33 @@ namespace Assessment1
 {
     class Party
     {
-        public string name { get; private set; }
+        private string _name;
+
+        public string GetName()
+        {
+            return _name;
+        }
         private int votes { get; set; }
-        public int runningVotes { get; private set; }
+        
+        private int _runningVotes;
+        public int GetRunningVotes()
+        {
+            return _runningVotes;
+        }
+        
         private List<string> meps { get; set; }
-        public int seatsSecured { get; private set; }
+        
+        private int _seatsSecured;
+        public int GetSeatsSecured()
+        {
+            return _seatsSecured;
+        }
      
         public Party(string Name, int Votes, List<string> MEPs)
         {
-            name = Name;
+            _name = Name;
             votes = Votes;
-            runningVotes = votes;
+            _runningVotes = votes;
             meps = MEPs;
         }
 
@@ -33,8 +49,8 @@ namespace Assessment1
 
         public void WinSeat()
         {
-            seatsSecured++;
-            runningVotes = votes / (1 + seatsSecured);
+            _seatsSecured++;
+            _runningVotes = votes / (1 + _seatsSecured);
         }
     }
 }

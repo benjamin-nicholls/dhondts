@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\georg\\Source\\Repos\\benjaminpnicholls\\oop1\\Assessment1\\Assessment1.csproj": {}
+    "C:\\Users\\georg\\source\\repos\\oop1\\Assessment1\\Assessment1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\georg\\Source\\Repos\\benjaminpnicholls\\oop1\\Assessment1\\Assessment1.csproj": {
+    "C:\\Users\\georg\\source\\repos\\oop1\\Assessment1\\Assessment1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\georg\\Source\\Repos\\benjaminpnicholls\\oop1\\Assessment1\\Assessment1.csproj",
+        "projectUniqueName": "C:\\Users\\georg\\source\\repos\\oop1\\Assessment1\\Assessment1.csproj",
         "projectName": "Assessment1",
-        "projectPath": "C:\\Users\\georg\\Source\\Repos\\benjaminpnicholls\\oop1\\Assessment1\\Assessment1.csproj",
+        "projectPath": "C:\\Users\\georg\\source\\repos\\oop1\\Assessment1\\Assessment1.csproj",
         "packagesPath": "C:\\Users\\georg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\georg\\Source\\Repos\\benjaminpnicholls\\oop1\\Assessment1\\obj\\",
+        "outputPath": "C:\\Users\\georg\\source\\repos\\oop1\\Assessment1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\georg\\AppData\\Roaming\\NuGet\\NuGet.Config",
