@@ -64,10 +64,10 @@ namespace Assessment1
             // Creation and printing to the output file
             StreamWriter sw = new StreamWriter(outputFileName);
             
-            for (int i = 0; i < outputList.Count(); i++)
+            foreach(string line in outputList)
             {
-                sw.WriteLine(outputList[i]);
-                //write to file using outputList[i] + \n
+                sw.WriteLine(line);
+                //write to file using line + \n
                 // close file
             }
             sw.Close();
