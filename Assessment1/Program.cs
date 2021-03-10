@@ -18,10 +18,7 @@ namespace Assessment1
             int allocatedSeatsCount = 0;
             List<Party> parties = new List<Party>();
 
-
             Parse(parties, lines);
-
-
 
             // Find the party with the most votes, apply D'Hondt, change tallies
             while (allocatedSeatsCount < maxSeatsCount)
@@ -34,27 +31,7 @@ namespace Assessment1
             // Prepare strings to output
             FileOutput(parties, constituency, outputFileName);
         }
-        static void FileOutput(List<Party> parties, string constituency, string outputFileName)
-        {
-            // Prepare strings to output
-            List<string> outputList = new List<string>();
-            outputList.Add("#" + constituency);
-            foreach (Party p in parties)
-            {
-                if (p.GetSeatsSecured() > 0)
-                {
-                    outputList.Add(p.GetName() + "," + p.GetMEPs(p.GetSeatsSecured()) + ";");
-                }
-            }
-
-            // Creation and printing to the output file
-            StreamWriter sw = new StreamWriter(outputFileName);
-            foreach (string line in outputList)
-            {
-                sw.WriteLine(line);
-            }
-            sw.Close();
-        }
+        
         static void Parse(List<Party> parties, string[] lines)
         {
             // Extract party name, votes, and list of MEPs -- create new objects for each party
@@ -82,7 +59,27 @@ namespace Assessment1
             }
         }
 
+        static void FileOutput(List<Party> parties, string constituency, string outputFileName)
+        {
+            // Prepare strings to output
+            List<string> outputList = new List<string>();
+            outputList.Add("#" + constituency);
+            foreach (Party p in parties)
+            {
+                if (p.GetSeatsSecured() > 0)
+                {
+                    outputList.Add(p.GetName() + "," + p.GetMEPs(p.GetSeatsSecured()) + ";");
+                }
+            }
 
+            // Creation and printing to the output file
+            StreamWriter sw = new StreamWriter(outputFileName);
+            foreach (string line in outputList)
+            {
+                sw.WriteLine(line);
+            }
+            sw.Close();
+        }
     }
 }
 
