@@ -7,17 +7,17 @@ namespace Assessment1
 {
     class Program
     {
-
         static void Main(string[] args)
         {
             string inputFileName = "input.txt";
             string outputFileName = "output.txt";
-            string[] lines = System.IO.File.ReadAllLines(inputFileName);
+            string[] lines = File.ReadAllLines(inputFileName);
             string constituency = lines[0][1..]; // remove leading hash
             int maxSeatsCount = int.Parse(lines[1]);
             int allocatedSeatsCount = 0;
             List<Party> parties = new List<Party>();
 
+            // Reads data into party class objects
             Parse(parties, lines);
 
             // Find the party with the most votes, apply D'Hondt, change tallies
@@ -28,7 +28,7 @@ namespace Assessment1
                 allocatedSeatsCount++;
             }
 
-            // Prepare strings to output
+            // Produce output file
             FileOutput(parties, constituency, outputFileName);
         }
         

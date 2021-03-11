@@ -24,3 +24,16 @@ C:\Users\georg\source\repos\oop1\Assessment1\obj\Debug\netcoreapp3.1\Assessment1
 C:\Users\georg\source\repos\oop1\Assessment1\obj\Debug\netcoreapp3.1\Assessment1.dll
 C:\Users\georg\source\repos\oop1\Assessment1\obj\Debug\netcoreapp3.1\Assessment1.pdb
 C:\Users\georg\source\repos\oop1\Assessment1\obj\Debug\netcoreapp3.1\Assessment1.genruntimeconfig.cache
+C:\Users\jess_\Source\Repos\benjaminpnicholls\oop1\Assessment1\bin\Debug\netcoreapp3.1\Assessment1.exe
+C:\Users\jess_\Source\Repos\benjaminpnicholls\oop1\Assessment1\bin\Debug\netcoreapp3.1\Assessment1.deps.json
+C:\Users\jess_\Source\Repos\benjaminpnicholls\oop1\Assessment1\bin\Debug\netcoreapp3.1\Assessment1.runtimeconfig.json
+C:\Users\jess_\Source\Repos\benjaminpnicholls\oop1\Assessment1\bin\Debug\netcoreapp3.1\Assessment1.runtimeconfig.dev.json
+C:\Users\jess_\Source\Repos\benjaminpnicholls\oop1\Assessment1\bin\Debug\netcoreapp3.1\Assessment1.dll
+C:\Users\jess_\Source\Repos\benjaminpnicholls\oop1\Assessment1\bin\Debug\netcoreapp3.1\Assessment1.pdb
+C:\Users\jess_\Source\Repos\benjaminpnicholls\oop1\Assessment1\obj\Debug\netcoreapp3.1\Assessment1.csprojAssemblyReference.cache
+C:\Users\jess_\Source\Repos\benjaminpnicholls\oop1\Assessment1\obj\Debug\netcoreapp3.1\Assessment1.AssemblyInfoInputs.cache
+C:\Users\jess_\Source\Repos\benjaminpnicholls\oop1\Assessment1\obj\Debug\netcoreapp3.1\Assessment1.AssemblyInfo.cs
+C:\Users\jess_\Source\Repos\benjaminpnicholls\oop1\Assessment1\obj\Debug\netcoreapp3.1\Assessment1.csproj.CoreCompileInputs.cache
+C:\Users\jess_\Source\Repos\benjaminpnicholls\oop1\Assessment1\obj\Debug\netcoreapp3.1\Assessment1.dll
+C:\Users\jess_\Source\Repos\benjaminpnicholls\oop1\Assessment1\obj\Debug\netcoreapp3.1\Assessment1.pdb
+C:\Users\jess_\Source\Repos\benjaminpnicholls\oop1\Assessment1\obj\Debug\netcoreapp3.1\Assessment1.genruntimeconfig.cache
